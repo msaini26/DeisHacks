@@ -1263,6 +1263,7 @@ margin: 0 0 10px 0;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+  margin-top: 15px;
 }
 
 #bottomButton:hover {
