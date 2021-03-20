@@ -1,10 +1,3 @@
-/**
-* Template Name: Bethany - v4.0.1
-* Template URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -198,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 30px;
   margin-right: 15px;
   border-radius: 50px;
-  color: rgb(0, 80, 162);
+  color: white;
 }
 
 .navbar .getstarted:hover {
@@ -515,11 +508,30 @@ section {
 #about {
   width: 100%;
   height: 80vh;
-  background: url("../img/rotaryclubgroup.jpeg") center center;
+  background: url("../img/about-bg.jpg") center center;
   background-size: cover;
   position: relative;
 }
-.about .content h2 {
+
+.title h1 {
+margin: 0 0 10px 0;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+.title h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.content h2 {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
@@ -527,23 +539,23 @@ section {
   text-transform: uppercase;
 }
 
-.about .content h3 {
+.content h3 {
   font-weight: 500;
   line-height: 32px;
   font-size: 24px;
 }
 
-.about .content ul {
+.content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.content ul li {
   padding: 10px 0 0 28px;
   position: relative;
 }
 
-.about .content ul i {
+.content ul i {
   left: 0;
   top: 7px;
   position: absolute;
@@ -551,7 +563,7 @@ section {
   color: rgb(0, 80, 162);
 }
 
-.about .content p:last-child {
+.content p:last-child {
   margin-bottom: 0;
 }
 
@@ -651,7 +663,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img/team.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -789,6 +801,8 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(54, 52, 58, 0.6);
+  object-fit: cover;
+  height: 230px;
 }
 
 .portfolio .portfolio-wrap::before {
