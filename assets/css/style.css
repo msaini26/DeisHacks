@@ -1031,7 +1031,7 @@ margin: 0 0 10px 0;
 }
 
 #speakers .speaker .details a:hover {
-  color: #f82249;
+  color: #fcbb47;
 }
 
 #speakers .speaker:hover .details {
@@ -1068,7 +1068,7 @@ margin: 0 0 10px 0;
 }
 
 #speakers-details .details .social a:hover {
-  background: #f82249;
+  background: #fcbb47;
   color: #fff;
 }
 
