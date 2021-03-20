@@ -11,6 +11,10 @@ rgb(0, 80, 162) - dark blue color
 #046fdb - light blue highlight
  */
 
+#logo {
+  max-width: 100px;
+}
+
 .symbol{
   display: inline;
 }
@@ -663,7 +667,7 @@ margin: 0 0 10px 0;
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img/team.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img/team1.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
