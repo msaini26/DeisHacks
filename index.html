@@ -39,14 +39,14 @@
 			<div class="header-container d-flex align-items-center justify-content-between">
 				<div class="logo">
 					<!-- <h1 class="text-light"><a href="index.html"><span>Waltham Rotary Club</span></a></h1> -->
-          <a href="index.html"><img src="assets/img/logo.png" alt="rotary logo"></a>
+          <a href="index.html"><img src="assets/img/logo_cropped.png" alt="rotary logo"></a>
         </div>
 
         <nav id="navbar" class="navbar">
           <ul>
             <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
             <li><a class="nav-link scrollto" href="about.html">About Us</a></li>
-            <li><a class="nav-link scrollto" href="#services">What We Do</a></li>
+            <!-- <li><a class="nav-link scrollto" href="#services">What We Do</a></li> -->
             <li><a class="nav-link scrollto " href="#portfolio">Events</a></li>
             <li><a class="nav-link scrollto" href="https://www.paypal.com/donate?token=JBxM4sKl8lZGrvVRv2ecBcRyuObc74kaCcP5V1AnGbiyqm_BROjwJDU1bYP-YemiR3nqYTpSMwk2AFZW">Donate</a></li>
             <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -81,7 +81,7 @@
     <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
       <h1>Waltham Rotary Club</h1>
       <h2>An International Service Organization that advances world peace and supports Waltham nonrofits</h2>
-      <a href="about.html" class="btn-get-started scrollto">Get Started</a>
+      <a href="foodDrive.html" class="btn-get-started scrollto">Get Started</a>
     </div>
   </section><!-- End Hero -->
 
@@ -898,7 +898,7 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
-          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
       <!-- <div class="social-links text-center text-md-right pt-3 pt-md-0">
@@ -923,6 +923,31 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDqOzkqC7XHCc04e4du0USOxhYImfJtZ5o",
+    authDomain: "deishacks.firebaseapp.com",
+    projectId: "deishacks",
+    storageBucket: "deishacks.appspot.com",
+    messagingSenderId: "969417294102",
+    appId: "1:969417294102:web:f0a90db3af388e60a2d037",
+    measurementId: "G-FZQ0YX211E"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+Learn more about Firebase for web: Get Started, Web SDK API Reference
 
 </body>
 
