@@ -47,7 +47,7 @@
             <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
             <li><a class="nav-link scrollto" href="about.html">About Us</a></li>
             <!-- <li><a class="nav-link scrollto" href="#services">What We Do</a></li> -->
-            <li><a class="nav-link scrollto " href="#portfolio">Events</a></li>
+            <li><a class="nav-link scrollto " href="events.html">Events</a></li>
             <li><a class="nav-link scrollto" href="https://www.paypal.com/donate?token=JBxM4sKl8lZGrvVRv2ecBcRyuObc74kaCcP5V1AnGbiyqm_BROjwJDU1bYP-YemiR3nqYTpSMwk2AFZW">Donate</a></li>
             <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
@@ -948,6 +948,22 @@
   firebase.analytics();
 </script>
 Learn more about Firebase for web: Get Started, Web SDK API Reference
+
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="/__/firebase/8.3.1/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="/__/firebase/8.3.1/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="/__/firebase/8.3.1/firebase-auth.js"></script>
+  <script src="/__/firebase/8.3.1/firebase-firestore.js"></script>
+  <!-- Previously loaded Firebase SDKs -->
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
 
 </body>
 
