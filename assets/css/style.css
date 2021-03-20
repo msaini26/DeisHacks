@@ -947,28 +947,6 @@ margin: 0 0 10px 0;
   border-radius: 0;
 }
 
-#events .about-btn {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 10px;
-  color: #fff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid #fcbb47;
-}
-
-#events .about-btn:hover {
-  background: #fcbb47;
-  color: #fff;
-}
-
 @-webkit-keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
@@ -1053,14 +1031,14 @@ margin: 0 0 10px 0;
 /*--------------------------------------------------------------
 # Fundraisers Section
 --------------------------------------------------------------*/
-#peakers {
+#speakers {
   padding: 60px 0 30px 0;
 }
 
 #fundraisers .fundraiser {
   position: relative;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 #fundraisers .fundraiser .details {
@@ -1088,25 +1066,15 @@ margin: 0 0 10px 0;
   font-style: italic;
 }
 
-#fundraisers .fundraiser .details .social {
-  height: 40px;
-}
-
-#fundraisers .fundraiser .details .social i {
-  line-height: 0;
-  margin: 0 2px;
-}
-
 #fundraisers .fundraiser .details a {
   color: #fff;
 }
-
 #fundraisers .fundraiser .details a:hover {
   color: #fcbb47;
 }
 
 #fundraisers .fundraiser:hover .details {
-  bottom: 0;
+  bottom: 20px;
 }
 
 #fundraisers-details {
@@ -1137,6 +1105,7 @@ margin: 0 0 10px 0;
   align-items: center;
   justify-content: center;
 }
+
 
 #fundraisers-details .details .social a:hover {
   background: #fcbb47;

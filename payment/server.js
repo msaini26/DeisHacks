@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 app.use(express.static('.'));
 
-const YOUR_DOMAIN = 'https://deishacks.itzsims.repl.co/payment';
+const YOUR_DOMAIN = 'http://localhost:4242';
 
 app.post('/create-checkout-session', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
@@ -22,7 +22,6 @@ app.post('/create-checkout-session', async (req, res) => {
       },
     ],
     mode: 'payment',
-    // update domain
     success_url: `${YOUR_DOMAIN}/success.html`,
     cancel_url: `${YOUR_DOMAIN}/cancel.html`,
   });
