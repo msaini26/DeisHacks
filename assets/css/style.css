@@ -13,10 +13,15 @@
 Color Palette for Rotary Website: 
 #F7A81B - bright orange color
 #fcbb47 - bright orange highlight color 
-rgb(188, 189, 192) - grey accent
+#ebebeb - grey highlight/accent
 rgb(0, 80, 162) - dark blue color
 #046fdb - light blue highlight
  */
+
+.symbol{
+  display: inline;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -46,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgb(0, 80, 162);
+  background: #F7A81B;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -188,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .getstarted {
-  background: #F7A81B;
+  background: #fcbb47;
   padding: 10px 25px;
   margin-left: 30px;
   margin-right: 15px;
@@ -198,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .getstarted:hover {
   color: rgb(0, 80, 162);
-  background: #fcbb47;
+  background: #ffca6d;
 }
 
 .navbar .dropdown ul {
@@ -366,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/MainPage.jpg") center center;
   background-size: cover;
   position: relative;
 }
@@ -377,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -419,8 +424,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #046fdb;
-  border: 2px solid #046fdb;
+  background: rgb(0, 80, 162);
+  border: 2px solid rgb(0, 80, 162);
 }
 
 @media (min-width: 1024px) {
@@ -588,9 +593,9 @@ section {
 
 .why-us .content .more-btn {
   display: inline-block;
-  background:#fcbb47;
+  background:white;
   padding: 6px 30px 8px 30px;
-  color: white;
+  color: rgb(0, 80, 162);
   border-radius: 50px;
   transition: all ease-in-out 0.4s;
 }
@@ -601,7 +606,7 @@ section {
 
 .why-us .content .more-btn:hover {
   color: rgb(0, 80, 162);
-  background: #fff;
+  background: #ebebeb;
 }
 
 .why-us .icon-boxes .icon-box {
@@ -689,13 +694,13 @@ section {
   width: 64px;
   height: 64px;
   border-radius: 50px;
-  border: 1px solid rgb(0, 80, 162);
+  border: 1px solid #fcbb47;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
   transition: ease-in-out 0.3s;
-  color: rgb(0, 80, 162);
+  color: #fcbb47;
 }
 
 .services .icon-box .icon i {
@@ -725,12 +730,12 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: rgb(0, 80, 162);
+  color: #fcbb47;
 }
 
 .services .icon-box:hover .icon {
   color: #fff;
-  background: rgb(0, 80, 162);
+  background: #fcbb47;
 }
 
 /*--------------------------------------------------------------
@@ -764,7 +769,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: rgb(0, 80, 162);
+  background: #fcbb47;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -935,8 +940,10 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
+  width: 120px;
+  object-fit: contain;
+
+  /* border-radius: 50%; */
   border: 4px solid #fff;
   margin: 0 auto;
 }
@@ -955,7 +962,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #046fdb;
+  color: #F7A81B;
   font-size: 26px;
 }
 
@@ -987,11 +994,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid rgb(0, 80, 162);
+  border: 1px solid #F7A81B;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(0, 80, 162);
+  background-color: #F7A81B;
 }
 
 /*--------------------------------------------------------------
@@ -1104,7 +1111,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: rgb(0, 80, 162);
+  background: #F7A81B;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1154,7 +1161,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: rgb(0, 80, 162);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1174,7 +1181,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid rgb(0, 80, 162);
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1204,7 +1211,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #00805d;
+  background: #046fdb;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1398,7 +1405,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #00664b;
+  background: #046fdb;
 }
 
 #footer .credits {
@@ -1423,7 +1430,14 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #00805d;
+  background: #046fdb;
   color: #fff;
   text-decoration: none;
+}
+
+.bxl-facebook, .bxl-instagram, .bxl-twitter, .bxl-linkedin{
+    font-size: 200%;
+}
+.bxl-facebook:hover , .bxl-instagram:hover , bxl-twitter:hover, bxl-linkedin:hover{
+    opacity: 0.7;
 }
