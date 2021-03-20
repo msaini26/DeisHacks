@@ -11,10 +11,6 @@ rgb(0, 80, 162) - dark blue color
 #046fdb - light blue highlight
  */
 
-#logo {
-  max-width: 100px;
-}
-
 .symbol{
   display: inline;
 }
@@ -103,7 +99,6 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo {
   overflow: hidden;
   padding: 16px 30px 12px 30px;
-  background: rgb(0, 80, 162);
 }
 
 #header .logo h1 {
@@ -122,17 +117,17 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 110px;
 }
 
 @media (max-width: 992px) {
   #header {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    background: #f5f5f5;
     top: 0;
-    background: rgb(0, 80, 162);
   }
   #header.header-scrolled, #header .header-container {
-    background: rgb(0, 80, 162);
+    background: #f5f5f5;
   }
   #header .logo {
     padding-left: 0;
@@ -268,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #fafafa;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -1465,4 +1460,12 @@ margin: 0 0 10px 0;
 }
 .bxl-facebook:hover , .bxl-instagram:hover , bxl-twitter:hover, bxl-linkedin:hover{
     opacity: 0.7;
+}
+
+.orange-link {
+  color: #F7A81B;
+}
+
+.orange-link:hover {
+  color: white;
 }
