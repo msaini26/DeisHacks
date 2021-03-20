@@ -11,9 +11,10 @@ rgb(0, 80, 162) - dark blue color
 #046fdb - light blue highlight
  */
 
-#top-thing {
-  
+.sansfont {
+  font-family: "Open Sans", sans-serif;
 }
+
 .symbol{
   display: inline;
 }
@@ -519,16 +520,16 @@ section {
 
 .title h1 {
 margin: 0 0 10px 0;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
 }
 
 .title h2 {
-  color: #fff;
+  color: #eee;
   margin-bottom: 40px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
@@ -539,16 +540,18 @@ margin: 0 0 10px 0;
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
 
 .content h3 {
   font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
   line-height: 32px;
   font-size: 24px;
 }
-
 .content ul {
   list-style: none;
   padding: 0;
@@ -567,13 +570,14 @@ margin: 0 0 10px 0;
   color: rgb(0, 80, 162);
 }
 
-.content p:last-child {
+.content p {
   margin-bottom: 0;
+  letter-spacing: 0.5px;
+  font-size: 16px;
 }
 
 .carousel {
   position: absolute;
-  width:740px;
   height:460px;
   margin-left: auto;
   margin-right: auto;
@@ -1179,7 +1183,7 @@ margin: 0 0 10px 0;
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .error-message {
+/* .contact .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1190,18 +1194,18 @@ margin: 0 0 10px 0;
 
 .contact .php-email-form .error-message br + br {
   margin-top: 25px;
-}
+} */
 
-.contact .php-email-form .sent-message {
+/* .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: rgb(0, 80, 162);
   text-align: center;
   padding: 15px;
   font-weight: 600;
-}
+} */
 
-.contact .php-email-form .loading {
+/* .contact .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
@@ -1219,7 +1223,7 @@ margin: 0 0 10px 0;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
-}
+} */
 
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
@@ -1235,7 +1239,24 @@ margin: 0 0 10px 0;
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+
+/* .contact .php-email-form button[type="submit"]   {
+  background: rgb(0, 80, 162);
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+} */
+
+
+/* button[type="submit"]:hover */
+/* .contact .php-email-form button[type="submit"]:hover  {
+  background: #046fdb;
+} */
+
+/*buttom button */
+#bottomButton {
   background: rgb(0, 80, 162);
   border: 0;
   padding: 10px 30px;
@@ -1244,7 +1265,7 @@ margin: 0 0 10px 0;
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+#bottomButton:hover {
   background: #046fdb;
 }
 

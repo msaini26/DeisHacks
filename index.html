@@ -35,7 +35,7 @@
 
 	<!-- ======= Header ======= -->
 	<header id="header" class="fixed-top d-flex align-items-center">
-		<div class="container">
+		<div class="container"">
 			<div class="header-container d-flex align-items-center justify-content-between">
 				<div class="logo">
 					<!-- <h1 class="text-light"><a href="index.html"><span>Waltham Rotary Club</span></a></h1> -->
@@ -101,7 +101,7 @@
             <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
             <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
           </div>
 
@@ -133,15 +133,16 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
             <p>
-              The Waltham Rotary Club is a chapter of Rotary International, an international service organization that brings together professional leaders and businesses to promote good will and humanitarian services around the world. We strive to:
+              The Waltham Rotary Club is a chapter of Rotary International. We understand that fulfilling that vision requires a plan. Rotary’s plan for the next five years is the following:
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i>Promote service to others</li>
-              <li><i class="ri-check-double-line"></i>Support Waltham nonprofits</li>
-              <li><i class="ri-check-double-line"></i> Advancing world understanding, goodwill, and peace through our fellowship of business, professional, and community leaders. </li>
+              <li><i class="ri-check-double-line"></i>to increase our impact in the local Waltham area</li>
+              <li><i class="ri-check-double-line"></i>expand our reach </li>
+              <li><i class="ri-check-double-line"></i> enhance participant engagement </li>
+              <li><i class="ri-check-double-line"></i>increase our ability to adapt</li>
             </ul>
             <p class="font-italic">
-              For more than 110 years, Rotary's people of action have used their passion, energy, and intelligence to take action on sustainable projects. We are always working to better our world, and we stay committed to the end.
+         We pioneered a new model of service leadership grounded in person-to-person connections. Today, those connections are a network that spans the globe and shares the vision of a better world.
             </p>
           </div>
         </div>
@@ -265,7 +266,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="col-md-4 d-flex align-items-stretch mt-0 mt-lg-0">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                   <div class="icon"><i class="bx bx-file"></i></div>
                   <h4><a href="">Supporting Education</a></h4>
@@ -273,7 +274,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4 d-flex align-items-stretch mt-4">
+              <div class="col-md-4 d-flex align-items-stretch mt-0">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                   <div class="icon"><i class="bx bx-tachometer"></i></div>
                   <h4><a href="">Fighting Disease</a></h4>
@@ -284,10 +285,28 @@
               <div class="col-md-4 d-flex align-items-stretch mt-4">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                   <div class="icon"><i class="bx bx-world"></i></div>
+                  <h4><a href="">Promoting Peace</a></h4>
+                  <p>Rotary encourages conversations to foster understanding within and across cultures. We train adults and young leaders to prevent and mediate conflict and help refugees who have fled dangerous areas.</p>
+                </div>
+              </div>
+
+              <div class="col-md-4 d-flex align-items-stretch mt-4">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="icon"><i class="bx bx-world"></i></div>
+                  <h4><a href="">Saving Mothers & Children</a></h4>
+                  <p>At least 7 million children under the age of five die each year because of malnutrition, poor health care, and inadequate sanitation. We expand access to quality care, so mothers and their children can live and grow stronger.</p>
+                </div>
+              </div>
+
+              <div class="col-md-4 d-flex align-items-stretch mt-4">
+                <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="icon"><i class="bx bx-world"></i></div>
                   <h4><a href="">Providing Clean Water, Sanitation & Hygiene</a></h4>
                   <p>We support local solutions to bring clean water, sanitation, and hygiene to more people every day. We don’t just build wells and walk away. We share our expertise with community leaders and educators to make sure our projects succeed long-term.</p>
                 </div>
               </div>
+
+              
 
             </div>
           
@@ -788,13 +807,37 @@
               </div>
             </div>
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+            <!-- TEST FORM -->
+            <!-- modify this form HTML and place wherever you want your form -->
+
+          <form  action="https://formspree.io/f/xoqyaqjv" method="POST" role="form" class="mt-4">
+          <div class="row">
+              <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your Email" required>
+              </div>
+          </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+          </div>
+               <button id="bottomButton" type="submit">Send Message</button>
+            </form>
+          </div>
+
+
+            <form action="https://formspree.io/f/xoqyaqjv" method="POST" role="form" class="php-email-form mt-4">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
@@ -803,16 +846,10 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
         </div>
-
       </div>
     </section><!-- End Contact Section -->
 
@@ -862,8 +899,8 @@
           </div> -->
 
           <div class="col-lg-4 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Join the Waltham Rotary Club</h4>
+            <p>Take action and email us to gain access to our club meetings</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
