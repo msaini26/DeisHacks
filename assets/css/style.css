@@ -91,6 +91,86 @@ rgb(0, 80, 162) - dark blue color
   }
 }
 
+/* food drive page */
+#ClothingDrive {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/clothes.jpg") center center;
+  background-size: cover;
+  position: relative;
+}
+
+#ClothingDrive .container {
+  padding-top: 80px;
+}
+
+#ClothingDrive:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#ClothingDrive h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#ClothingDrive h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+#ClothingDrive .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#ClothingDrive .btn-get-started:hover {
+  background: rgb(0, 80, 162);
+  border: 2px solid rgb(0, 80, 162);
+}
+
+@media (min-width: 1024px) {
+  #ClothingDrive {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #ClothingDrive {
+    height: 100vh;
+  }
+  #ClothingDrive .container {
+    padding-top: 60px;
+  }
+  #ClothingDrive h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
 #carouselExampleInterval {
   position: relative;
 }
