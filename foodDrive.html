@@ -34,6 +34,8 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </head>
 
 <body>
@@ -93,10 +95,14 @@
 
   <div> <br> </div>
 
- <!-- add shopping cart icon here -->
- <div>
-   <img src="assets/img/cart0.png" alt="" class="shoppingCart">
- </div>
+<div class="container">
+  <div class="row">
+      <!-- add shopping cart icon here -->
+      <div class="shoppingCart">
+      <img id="shopping" src="assets/img/cart0.png" alt="">
+      </div>
+  </div>
+</div>
 
 <div class="container">
 
@@ -105,13 +111,16 @@
   <div class="row">
     <div class="col-6 col-md-4">
       <div class="card">
-        <img src="assets/img/carrots.jpg" class="card-img-top" alt="...>
+        <img src="assets/img/carrots.jpg" class="card-img-top" alt="... ><br>
         <div class="card-body">
-           <h5 class="card-title">Carrots</h5>
-            <a href="#" class="btn btn-primary">Shop to Donate Now!</a><br>
+           <h5 class="card-title">Carrots
+             <span class="card-subtitle">$7 per case</span>
+           </h5>
+           <!-- <p class="card-subtitle">$7 per case</p> -->
+            <a class="btn btn-primary" onclick="getElementById('shopping').src= 'assets/img/cart1.png'">Donate Now</a> <br>
             <!-- progress bar -->
             <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="50">45/50</div>
+            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 40%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="50">20/50</div>
             </div>
         </div>
       </div>
@@ -122,11 +131,11 @@
       <div class="card">
         <img src="assets/img/peas.jpg" class="card-img-top" alt="...>
         <div class="card-body">
-           <h5 class="card-title">Peas</h5>
-            <a href="#" class="btn btn-primary">Shop to Donate Now!</a><br>
+           <h5 class="card-title">Peas $6</h5>
+            <a href="#" class="btn btn-primary">Donate Now</a><br>
             <!-- progress bar -->
             <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 40%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="50">20/50</div>
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="50">45/50</div>
             </div>
         </div>
       </div>
@@ -137,8 +146,8 @@
       <div class="card">
         <img src="assets/img/potat.jpg" class="card-img-top" alt="...>
         <div class="card-body">
-           <h5 class="card-title">Potatoes</h5>
-            <a href="#" class="btn btn-primary">Shop to Donate Now!</a><br>
+           <h5 class="card-title">Potatoes $5</h5>
+            <a href="#" class="btn btn-primary">Donate Now</a><br>
             <!-- progress bar -->
             <div class="progress">
             <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50">25/50</div>
@@ -156,8 +165,8 @@
       <div class="card">
         <img src="assets/img/cabbie.jpg" class="card-img-top" alt="...>
         <div class="card-body">
-           <h5 class="card-title">Cabbages</h5>
-            <a href="#" class="btn btn-primary">Shop to Donate Now!</a><br>
+           <h5 class="card-title">Cabbages $8</h5>
+            <a href="#" class="btn btn-primary">Donate Now</a><br>
             <!-- progress bar -->
             <div class="progress">
             <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 60%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="50">30/50</div>
@@ -171,8 +180,8 @@
       <div class="card">
         <img src="assets/img/strawberries.jpg" class="card-img-top" alt="...>
         <div class="card-body">
-           <h5 class="card-title">Strawberries</h5>
-            <a href="#" class="btn btn-primary">Shop to Donate Now!</a><br>
+           <h5 class="card-title">Strawberries $16</h5>
+            <a href="#" class="btn btn-primary">Donate Now</a><br>
             <!-- progress bar -->
             <div class="progress">
             <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="50">10/50</div>
@@ -186,8 +195,8 @@
       <div class="card">
         <img src="assets/img/ba.jpg" class="card-img-top" alt="...>
         <div class="card-body">
-           <h5 class="card-title">Bananas</h5>
-            <a href="#" class="btn btn-primary">Shop to Donate Now!</a><br>
+           <h5 class="card-title">Bananas $9</h5>
+            <a href="#" class="btn btn-primary">Donate Now</a><br>
             <!-- progress bar -->
             <div class="progress">
             <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="50">10/50</div>
@@ -295,8 +304,7 @@
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  
 
   <!-- Latest compiled and minified CSS -->
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->

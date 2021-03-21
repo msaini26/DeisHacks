@@ -12,10 +12,15 @@ rgb(0, 80, 162) - dark blue color
  */
 
 .shoppingCart {
-   width:80px;
-   display: block;
-   float: right;
+   
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 80px;
 
+}
+
+.shoppingCart img{
+  width:80px;
 }
 /* food drive page */
 #FoodDrive {

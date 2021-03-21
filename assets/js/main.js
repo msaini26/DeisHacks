@@ -6,7 +6,9 @@
 */
 (function() {
   "use strict";
+  
 
+  
 
   /**
    * Easy selector helper function
@@ -19,7 +21,7 @@
       return document.querySelector(el)
     }
   }
-
+  
   /**
    * Easy event listener function
    */
