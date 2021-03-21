@@ -10,7 +10,13 @@ Color Palette for Rotary Website:
 rgb(0, 80, 162) - dark blue color
 #046fdb - light blue highlight
  */
-
+ /* Food Drive outline image */
+.outline1{
+  position:absolute;
+  top:50%;
+  left:50%;
+  padding-bottom:45px;
+}
 
 .shoppingCart {
    
