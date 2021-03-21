@@ -37,6 +37,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
+
 </head>
 
 <body>
@@ -104,23 +105,25 @@
             <div class="row">
                 <!-- add shopping cart icon here -->
                 <div class="shoppingCart">
-                    <img id="shopping" src="assets/img/cart0.png" alt="">
+                  <a href="https://connect.squareupsandbox.com/v2/checkout?c=CBASEBrW3T2TUkhuEWOKq22lUP8&l=LV124EYCTXT5C">
+                      <img id="shopping" src="assets/img/cart0.png" alt="">
+                  </a>
                 </div>
             </div>
             <!-- Start of row -->
             <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
             <div class="row">
+              <p>*Note all prices are per 3-4 cases of produce </p>
                 <div class="col-6 col-md-4">
                     <div class="card">
                         <img src="assets/img/carrots.jpg" class="card-img-top">
                         <!-- Outline for cabbage image -->
-                        <img src="assets/img/outline.png " class="card-title outline1" width="110% ">
+                        <img src="assets/img/outline.png" onclick="getElementById('shopping').src= 'assets/img/cart1.png'" class="card-title outline1" width="110% ">
                         <div class="card-body">
-                            <h5 class="card-title">Carrots $10
+                            <h5 class="card-title">Carrots $24
                             </h5>
                             
-                            <a class="btn btn-primary w-100"
-                                onclick="getElementById('shopping').src= 'assets/img/cart1.png'">Donate Now</a> <br>
+                            <a class="btn btn-primary w-100">Donate Now</a> <br>
                             <!-- progress bar -->
                             <div class="progress mt-3">
                                 <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
@@ -137,7 +140,7 @@
                         <img src="assets/img/peas.jpg" class="card-img-top">
                         <img src="assets/img/outline.png " class="card-title outline1" width="110% ">
                         <div class="card-body">
-                            <h5 class="card-title">Peas $6</h5>
+                            <h5 class="card-title">Peas $16</h5>
                             <a href="#" class="btn btn-primary w-100">Donate Now</a><br>
                             <!-- progress bar -->
                             <div class="progress mt-3">
@@ -155,7 +158,7 @@
                         <img src="assets/img/potat.jpg" class="card-img-top">
                         <img src="assets/img/outline.png " class="card-title outline1" width="110% ">
                         <div class="card-body">
-                            <h5 class="card-title">Potatoes $5</h5>
+                            <h5 class="card-title">Potatoes $19</h5>
                             <a href="#" class="btn btn-primary w-100">Donate Now</a><br>
                             <!-- progress bar -->
                             <div class="progress mt-3">
@@ -177,7 +180,7 @@
                         <img src="assets/img/cabbie.jpg" class="card-img-top">
                         <img src="assets/img/outline.png " class="card-title outline1" width="110% ">
                         <div class="card-body">
-                            <h5 class="card-title">Cabbages $8</h5>
+                            <h5 class="card-title">Cabbages $28</h5>
                             <a href="#" class="btn btn-primary w-100">Donate Now</a><br>
                             <!-- progress bar -->
                             <div class="progress mt-3">
@@ -230,7 +233,7 @@
             </div>
 
             <!-- </div> -->
-        </div>
+        </div><br><br><br>
 
     </main><!-- End #main -->
 
@@ -331,7 +334,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
     <!-- Latest compiled and minified CSS -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 
