@@ -1,8 +1,8 @@
-# Deis Hacks 2021
+# Deis Hacks
 #### Smriti, Zaina, Ishika, Carrie, Mansi and Thao's Hack for Deis Hacks 2021
 
-### Update
-We received the Wolfram One Award: Top 3 API and Tech Hacks.
+## Hackathon Win Update 🚀
+We received the `✨Wolfram One Award: Top 3 API and Tech Hacks Award`
 
 ## Inspiration
 We were inspired by the Waltham Rotary Club’s mission and their goal to make a positive impact on the community. One particular point that attracted us to hack for the Waltham Rotary Club was their strategy towards creating a more youth-focused platform. In addition, we were inspired to create a virtual food and clothing drive to provide humanitarian aid even with restrictions on in-person events during the COVID-19 pandemic. 
